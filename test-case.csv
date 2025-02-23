@@ -1,0 +1,36 @@
+TC Number,Feature,Test Case Description,Expected Result
+1,Login,Verify login with valid credentials,User should be logged in successfully
+2,Login,Verify login with invalid password,User should see an error message
+3,Login,Verify login with unregistered email,User should see a 'User not found' message
+4,Login,Verify login with empty fields,User should be prompted to enter credentials
+5,Login,Verify login session persistence,User should remain logged in after refresh
+6,Payment Processing,Verify payment with valid card details,Payment should be processed successfully
+7,Payment Processing,Verify payment with expired card,User should receive an 'Invalid card' error
+8,Payment Processing,Verify payment with insufficient funds,User should receive a 'Payment declined' message
+9,Payment Processing,Verify payment cancellation,Transaction should be canceled successfully
+10,Payment Processing,Verify refund process,Amount should be refunded within the expected timeframe
+11,Registration,Verify registration with valid details,User account should be created successfully
+12,Registration,Verify registration with existing email,User should see 'Email already in use' message
+13,Registration,Verify registration with weak password,User should be prompted to use a stronger password
+14,Registration,Verify registration with empty fields,User should be prompted to fill all required fields
+15,Registration,Verify email verification process,User should receive a verification email
+16,Profile Management,Verify profile update with valid details,Profile should be updated successfully
+17,Profile Management,Verify profile update with invalid email,User should see an error message
+18,Profile Management,Verify profile picture upload,Profile picture should be uploaded successfully
+19,Profile Management,Verify profile deletion,User should receive a confirmation before deletion
+20,Profile Management,Verify changing password,User should be able to change password successfully
+21,Order Placement,Verify placing order with valid details,Order should be placed successfully
+22,Order Placement,Verify order with out-of-stock item,User should see an 'Out of stock' message
+23,Order Placement,Verify order summary before checkout,User should see a correct order summary
+24,Order Placement,Verify applying a valid discount code,Discount should be applied correctly
+25,Order Placement,Verify order cancellation,User should be able to cancel order before shipping
+26,Cart Management,Verify adding item to cart,Item should be added successfully
+27,Cart Management,Verify removing item from cart,Item should be removed successfully
+28,Cart Management,Verify cart total calculation,Total price should be updated correctly
+29,Cart Management,Verify updating item quantity,Item quantity should be updated correctly
+30,Cart Management,Verify emptying the cart,All items should be removed from the cart
+31,Search Functionality,Verify searching for an existing product,Relevant search results should be displayed
+32,Search Functionality,Verify searching for a non-existent product,User should see a 'No results found' message
+33,Search Functionality,Verify search with filters,Results should match the selected filters
+34,Search Functionality,Verify search with special characters,User should receive valid results or a proper message
+35,Search Functionality,Verify search autocomplete suggestions,Suggested search terms should be displayed
