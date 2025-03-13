@@ -1,3 +1,6 @@
 pandas
 numpy
 sentence_transformers
+opencv-python
+scikit-image
+Pillow==9.5.0
